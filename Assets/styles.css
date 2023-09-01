@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: lavender;
+    font-family: fantasy, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
