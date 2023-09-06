@@ -1,0 +1,23 @@
+{
+    "tarotDeck" [
+        {
+            "id": 0,
+            "name": "The Fool",
+            "image": ".tarot-cards/22-the-fool.jpg",
+            "meaning": "It's spicy"
+
+        }
+        {
+            "id": 1,
+            "name": "The Magician",
+            "image": ".tarot-cards/1-the-magician.jpg",
+            "meaning": "It's lightning"
+        }
+        {
+            "id": 2,
+            "name": "The High Priestess",
+            "image": ".tarot-cards/1-the-magician.jpg",
+            "meaning": "It's lightning"
+        }
+    ]
+}
