@@ -1,25 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Titillium+Web:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400;700&family=Titillium+Web:ital,wght@0,400;0,700;1,400&display=swap');
+
 
 /*FONT FAMILIES AND STYLING */
 .h1 {
     margin: auto;
     font-size: 40px;
     font-weight: 700;
-    font-family: "Cinzel", serif;
+    font-family: "Titillium Web", sans-serif;
 }
 
 .h2 {
     margin: auto;
     font-size: 26px;
     font-weight: 700;
-    font-family: "EB Garamond", sans-serif;
+    font-family: "Cinzel", serif;
+    
 }
 
 .p-text {
     margin: auto;
     font-size: 20px;
     font-weight: 400;
-    font-family: "Titillium Web", sans-serif;
+    font-family: "Bitter", serif;
+    
 }
 
 .bold {
@@ -34,8 +37,8 @@
     font-family: "Titillium Web", sans-serif;
 }
 
-.eb-garamond {
-    font-family: "EB Garamond", serif;
+.bitter {
+    font-family: "Bitter", serif;
 }
 
 .cinzel {
@@ -47,18 +50,18 @@
 /*TEAL TINTS */
 
 .sumptuous-swamp {
-    background-color: hsl(180, 100%, 10%);
-    color: hsl(275, 100%, 95%);
+    background-color: hsl(180, 100%, 15%);
+    color: hsl(300, 100%, 95%);
 }
 
 .splendid-stream {
     background-color: hsl(180, 100%, 30%);
-    color: hsl(275, 100%, 95%);
+    color: hsl(300, 100%, 95%);
 }
 
 .awesome-aqua {
     background-color: hsl(180, 100%, 45%);
-    color: hsl(45, 62%, 20%);
+    color: hsl(60, 50%, 20%);
 }
 
 .bombastic-blue {
@@ -72,57 +75,57 @@
 }
 
 
-/*INDIGO TINTS */
+/*MAGENTA TINTS */
 
 .excellent-eggplant {
-    background-color: hsl(275, 100%, 15%);
-    color: hsl(275, 100%, 95%);
+    background-color: hsl(300, 100%, 15%);
+    color: hsl(300, 100%, 95%);
 }
 
 .amazing-aubergine {
-    background-color: hsl(275, 100%, 35%);
-    color: hsl(275, 100%, 95%);
+    background-color: hsl(300, 100%, 25%);
+    color: hsl(300, 100%, 95%);
 }
 
 .valiant-violet {
-    background-color: hsl(275, 100%, 55%);
-    color: hsl(275, 100%, 15%);
+    background-color: hsl(300, 100%, 40%);
+    color: hsl(300, 100%, 15%);
 }
 
 .pale-plum {
-    background-color: hsl(275, 100%, 75%);
+    background-color: hsl(300, 100%, 70%);
     color: hsl(180, 100%, 10%);
 }
 
 .lovely-lavender {
-    background-color: hsl(275, 100%, 95%);
+    background-color: hsl(300, 100%, 90%);
     color: hsl(180, 100%, 10%);
 }
 
-/*GOLD TINTS*/
+/*OLIVE TINTS*/
 
-.beautiful-bronze {
-    background-color: hsl(45, 62%, 20%);
-    color: hsl(275, 100%, 95%);
+.ostentatious-olive {
+    background-color: hsl(60, 50%, 15%);
+    color: hsl(300, 100%, 95%);
 }
 
-.luminous-leather {
-    background-color: hsl(45, 62%, 35%);
-    color: hsl(275, 100%, 95%);
+.grungy-green {
+    background-color: hsl(60, 50%, 25%);
+    color: hsl(300, 100%, 95%);
 }
 
-.heavenly-honeycomb {
-    background-color: hsl(45, 62%, 50%);
-    color: hsl(45, 62%, 20%);
+.abundant-asparagus {
+    background-color: hsl(60, 50%, 40%);
+    color: hsl(60, 50%, 10%);
 }
 
-.miraculous-maize {
-    background-color: hsl(45, 62%, 65%);
+.marvelous-manzanilla {
+    background-color: hsl(60, 50%, 60%);
     color: hsl(180, 100%, 10%);
 }
 
-.whimsical-wheat {
-    background-color: hsl(45, 62%, 80%);
+.darling-dumpling {
+    background-color: hsl(60, 50%, 80%);
     color: hsl(180, 100%, 10%);
 }
 
@@ -130,27 +133,27 @@
 /*SILVER TINTS*/
 
 .noble-nickel {
-    background-color: hsl(200, 2%, 55%);
-    color: hsl(275, 100%, 95%);
+    background-color: hsl(180, 5%, 55%);
+    color: hsl(180, 5%, 95%);
 }
 
 .gallant-gray {
-    background-color: hsl(200, 2%, 65%);
-    color: hsl(275, 100%, 95%);
+    background-color: hsl(180, 5%, 65%);
+    color: hsl(180, 5%, 95%);
 }
 
 .fantastic-foil {
-    background-color: hsl(200, 2%, 75%);
+    background-color: hsl(180, 5%, 75%);
     color: hsl(180, 100%, 10%);
 }
 
 .magnificent-moon {
-    background-color: hsl(200, 2%, 85%);
+    background-color: hsl(180, 5%, 85%);
     color: hsl(180, 100%, 10%);
 }
 
 .dazzling-diamonds {
-    background-color: hsl(200, 2%, 95%);
+    background-color: hsl(180, 5%, 95%);
     color: hsl(180, 100%, 10%);
 }
 
@@ -180,6 +183,10 @@
     transition: all 0.2s ease-in-out;
 }
 
+.flat {
+    box-shadow: none;
+}
+
 .small {
     width: 105px;
     height: 30px;
@@ -192,146 +199,154 @@
     font-size: 20px;
 }
 
-.primary,
-.primary-outline:hover {
+.fool,
+.fool-outline:hover {
     background-color: hsl(180, 100%, 30%);
-    color: hsl(200, 2%, 95%);
+    color: hsl(180, 2%, 95%);
     border: 1px solid hsl(180, 100%, 30%);
 }
 
-.primary:hover {
+.fool:hover {
     background-color: hsl(180, 100%, 25%);
     border: 1px solid hsl(180, 100%, 25%);
 }
 
-.primary-outline {
-    background-color: hsl(200, 2%, 95%);
+.fool.flat:active,
+.fool-outline {
+    background-color: hsl(180, 2%, 95%);
     color: hsl(180, 100%, 30%);
     border: 1px solid hsl(180, 100%, 30%);
 }
 
-.secondary,
-.secondary-outline:hover {
-    background-color: hsl(275, 100%, 55%);
-    color: hsl(200, 2%, 95%);
-    border: 1px solid hsl(275, 100%, 55%);
+.magician,
+.magician-outline:hover {
+    background-color: hsl(300, 100%, 40%);
+    color: hsl(180, 5%, 95%);
+    border: 1px solid hsl(300, 100%, 40%);
 }
 
-.secondary:hover {
-    background-color: hsl(275, 100%, 50%);
-    border: 1px solid hsl(275, 100%, 50%);
+.magician:hover {
+    background-color: hsl(300, 100%, 35%);
+    border: 1px solid hsl(300, 100%, 35%);
 }
 
-.secondary-outline {
-    background-color: hsl(200, 2%, 95%);
-    color: hsl(275, 100%, 55%);
-    border: 1px solid hsl(275, 100%, 55%);
+.magician.flat:active,
+.magician-outline {
+    background-color: hsl(180, 5%, 95%);
+    color: hsl(300, 100%, 40%);
+    border: 1px solid hsl(300, 100%, 40%);
 }
 
-.success,
-.success-outline:hover {
-    background-color: hsl(180, 100%, 10%);
-    color: hsl(200, 2%, 95%);
-    border: 1px solid hsl(180, 100%, 10%);
-}
-
-.success:hover {
+.priestess,
+.priestess-outline:hover {
     background-color: hsl(180, 100%, 15%);
+    color: hsl(180, 5%, 95%);
     border: 1px solid hsl(180, 100%, 15%);
 }
 
-.success-outline {
-    background-color: hsl(200, 2%, 95%);
-    color: hsl(180, 100%, 10%);
-    border: 1px solid hsl(180, 100%, 10%);
+.priestess:hover {
+    background-color: hsl(180, 100%, 20%);
+    border: 1px solid hsl(180, 100%, 20%);
 }
 
-.danger,
-.danger-outline:hover {
-    background-color: hsl(200, 2%, 75%);
-    color: hsl(200, 2%, 95%);
-    border: 1px solid hsl(200, 2%, 75%);
+.priestess.flat:active,
+.priestess-outline {
+    background-color: hsl(180, 5%, 95%);
+    color: hsl(180, 100%, 15%);
+    border: 1px solid hsl(180, 100%, 15%);
 }
 
-.danger:hover {
-    background-color: hsl(200, 2%, 70%);
-    border: 1px solid hsl(200, 2%, 70%);
+.empress,
+.empress-outline:hover {
+    background-color: hsl(180, 5%, 75%);
+    color: hsl(180, 5%, 95%);
+    border: 1px solid hsl(180, 5%, 75%);
 }
 
-.danger-outline {
-    background-color: hsl(200, 2%, 95%);
-    color: hsl(200, 2%, 55%);
-    border: 1px solid hsl(200, 2%, 55%);
+.empress:hover {
+    background-color: hsl(180, 5%, 70%);
+    border: 1px solid hsl(180, 5%, 70%);
 }
 
-.info,
-.info-outline:hover {
+.empress.flat:active,
+.empress-outline {
+    background-color: hsl(180, 5%, 95%);
+    color: hsl(180, 5%, 55%);
+    border: 1px solid hsl(180, 5%, 55%);
+}
+
+.emperor,
+.emperor-outline:hover {
     background-color: hsl(180, 100%, 45%);
-    color: hsl(200, 2%, 95%);
+    color: hsl(180, 2%, 95%);
     border: 1px solid hsl(180, 100%, 45%);
 }
 
-.info:hover {
+.emperor:hover {
     background-color: hsl(180, 100%, 40%);
     border: 1px solid hsl(180, 100%, 40%);
 }
 
-.info-outline {
-    background-color: hsl(200, 2%, 95%);
+.emperor.flat:active,
+.emperor-outline {
+    background-color: hsl(180, 5%, 95%);
     color: hsl(180, 100%, 40%);
     border: 1px solid hsl(180, 100%, 40%);
 }
 
-.warning,
-.warning-outline:hover {
-    background-color: hsl(45, 62%, 50%);
-    color: hsl(200, 2%, 95%);
-    border: 1px solid hsl(45, 62%, 50%);
+.hierophant,
+.hierophant-outline:hover {
+    background-color: hsl(60, 50%, 40%);
+    color: hsl(180, 5%, 95%);
+    border: 1px solid hsl(60, 50%, 40%);
 }
 
-.warning:hover {
-    background-color: hsl(45, 62%, 45%);
-    border: 1px solid hsl(45, 62%, 45%);
+.hierophant:hover {
+    background-color: hsl(60, 50%, 35%);
+    border: 1px solid hsl(60, 50%, 35%);
 }
 
-.warning-outline {
-    background-color: hsl(200, 2%, 95%);
-    color: hsl(45, 62%, 50%);
-    border: 1px solid hsl(45, 62%, 50%);
+.hierophant.flat:active,
+.hierophant-outline {
+    background-color: hsl(180, 5%, 95%);
+    color: hsl(60, 50%, 40%);
+    border: 1px solid hsl(60, 50%, 40%);
 }
 
-.light,
-.light-outline:hover {
-    background-color: hsl(200, 2%, 95%);
-    color: hsl(275, 100%, 15%);
-    border: 1px solid hsl(200, 2%, 95%);
+.lovers,
+.chariot-outline:hover {
+    background-color: hsl(180, 5%, 95%);
+    color: hsl(300, 100%, 15%);
+    border: 1px solid hsl(180, 5%, 95%);
 }
 
-.light:hover {
-    background-color: hsl(200, 2%, 90%);
-    border: 1px solid hsl(200, 2%, 90%);
+.lovers:hover {
+    background-color: hsl(180, 5%, 90%);
+    border: 1px solid hsl(180, 5%, 90%);
 }
 
-.light-outline {
-    background-color: hsl(200, 2%, 95%);
-    color: hsl(275, 100%, 15%);
-    border: 1px solid hsl(275, 100%, 15%);
+.chariot.flat:active,
+.lovers-outline {
+    background-color: hsl(180, 5%, 95%);
+    color: hsl(300, 100%, 15%);
+    border: 1px solid hsl(300, 100%, 15%);
 }
 
-.dark,
-.dark-outline:hover {
-    background-color: hsl(275, 100%, 15%);
-    color: hsl(200, 2%, 95%);
-    border: 1px solid hsl(275, 100%, 15%);
+.chariot,
+.lovers-outline:hover {
+    background-color: hsl(300, 100%, 15%);
+    color: hsl(180, 5%, 95%);
+    border: 1px solid hsl(300, 100%, 15%);
 }
 
-.dark:hover {
-    background-color: hsl(275, 100%, 20%);
-    border: 1px solid hsl(275, 100%, 20%);
+.chariot:hover {
+    background-color: hsl(300, 100%, 20%);
+    border: 1px solid hsl(300, 100%, 20%);
 }
 
-.dark-outline {
-    background-color: hsl(275, 100%, 15%);
-    color: hsl(200, 2%, 95%);
-    border: 1px solid hsl(200, 2%, 95%);
+.lovers.flat:active,
+.chariot-outline {
+    background-color: hsl(300, 100%, 15%);
+    color: hsl(180, 5%, 95%);
+    border: 1px solid hsl(180, 5%, 95%);
 }

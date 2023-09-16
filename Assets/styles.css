@@ -2,7 +2,10 @@
     box-sizing: border-box;
 }
 
-
+body {
+    background-color: hsl(225, 100%, 10%);
+    color: hsl(45, 100%, 70%);
+}
 
 h1,
 h2,
